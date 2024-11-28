@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100&display=swap');
+
+:root{
+    --primary-color:#DC5F00;
+    --secundary-color:#373A40;
+    --third-color:#686D76;
+    --quarter-color:#EEEEEE;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-style: normal;
+}
+.sliderbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background: var(--third-color);
+    z-index: 100;
+}
+.sliderbar .imagen img{
+    width: 100px;
+    height: 100px;
+}
+.sliderbar header{
+    position: relative;
+}
+.sliderbar li{
+    height: 50px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.sliderbar li .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    font-size: 20px;   
+}
+.sliderbar li .icon,
+.sliderbar li .text{
+    color: var(--quarter-color);
+
+}
+.sliderbar li a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.4s;
+}
+.sliderbar li a:hover{
+    transform: scale(1.2);
+}
+.sliderbar .menu-bar{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sliderbar  .menu{
+    margin-top: 10px;
+}
+.sliderbar li span{
+    font-weight: 200;
+    font-size: 20px;
+}
+.main{
+    width: calc(100%-260px);
+    height: 100vh;
+    position: relative;
+}
+.main .inicio .graficos{
+    align-items: start;
+    height: 40vh;
+}
+.main .carrusel{
+    display: flex;
+    
+}
+.main .carrusel .carta{
+    border: 2px solid var(--third-color);
+    width: 200px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.main .carrusel .carta img{
+    align-content: center;
+    width: 150px;
+    height: 150px;
+    padding: 0px 0px 10px;
+    border-bottom: 1px solid var(--third-color);
+}
+.main .carrusel .carta .info{
+    justify-content: start;
+    align-content: space-around;
+}
+/* inventarios */
+.inicio #busqueda{
+    width: 100%;
+    max-width: 700px;
+    background: #dc5f008a;
+}
+

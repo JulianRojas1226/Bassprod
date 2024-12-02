@@ -54,9 +54,6 @@
       </div>
     </nav>
     <main class="main"> 
-      <nav>
-        
-      </nav>
       <section class="inicio">
         <div class="container-lg">
           <div class="row">
@@ -213,7 +210,7 @@
                                           echo "</select>";
               ?>
           </div>
-          </div>
+        </div>
         </div>
       </section>
       <div class="productos">

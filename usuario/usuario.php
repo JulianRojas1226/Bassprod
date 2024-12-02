@@ -42,8 +42,7 @@
                 <i class="fa-solid fa-cart-shopping icon"></i>
                 <span class="text nav-text">VENTAS</span>
               </a>
-            </li>
-                       
+            </li>                      
           </ul>
         </div>
       </div>
